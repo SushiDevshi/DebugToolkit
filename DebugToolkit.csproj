@@ -388,7 +388,6 @@
   </Target>
 
   <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
-    <Exec Command="git rev-parse --verify HEAD &gt; CurrentCommit&#xD;&#xA;" />
   </Target>
 
 </Project>
